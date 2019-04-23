@@ -1,11 +1,39 @@
 body{
     background: #E3E1E3;
-
+    margin: 0px;
 }
+
 
 #header{
-    background: #801B00;
+    position: fixed;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 75px;
+    color: antiquewhite;
+}
+
+#header-img{
+
 }
 
 
+#header-nav{
+    width: 50%;
+}
+
+#generalContent{
+    text-align: center;
+}
+
+.banner-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 100%;
+}
+
 /*841200*/
+/*#801B00*/
