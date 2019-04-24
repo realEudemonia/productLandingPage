@@ -1,18 +1,27 @@
 body{
     background: #E3E1E3;
-    margin: 0px;
+    margin: 0;
 }
 
+div{
+    border: 1px solid black;
+}
 
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
 #header{
-    position: fixed;
-    background: black;
+    /*position: fixed;*/
+    background: antiquewhite;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     min-height: 75px;
-    color: antiquewhite;
 }
 
 #header-img{
@@ -24,7 +33,7 @@ body{
     width: 50%;
 }
 
-#generalContent{
+#container-content{
     text-align: center;
 }
 
