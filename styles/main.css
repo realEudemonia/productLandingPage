@@ -87,6 +87,11 @@ p{
     width: 50%;
 }
 
+#how-it-works{
+    position: relative;
+    right: 145px;
+}
+
 #form{
     position: relative;
     right: 45px;
